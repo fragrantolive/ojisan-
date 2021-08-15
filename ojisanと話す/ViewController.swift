@@ -8,12 +8,34 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var startButton: UIButton!
+    
+//    @IBOutlet var ImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        startButton.layer.cornerRadius = 125
+        
+        class ViewController: UIViewController {
+            
+            //画像
+            @IBOutlet var profileImageView: UIImageView!
+    
+        
     }
-
-
+    
+//        @IBAction func tapButton1() {
+//
+//            ImageView.image = UIImage(named: "shatyou")
+//            
+//
+//        }
+        
+        
+    
 }
 
+}

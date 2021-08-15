@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52E47D726C89F160019D25B /* HannariMincho-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B52E47D626C89F160019D25B /* HannariMincho-Regular.otf */; };
+		B52E47D926C8AC2C0019D25B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E47D826C8AC2C0019D25B /* SelectViewController.swift */; };
+		B52E47DB26C8AC640019D25B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E47DA26C8AC640019D25B /* ResultViewController.swift */; };
 		B5ECD3C226C7A2080035B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECD3C126C7A2080035B698 /* AppDelegate.swift */; };
 		B5ECD3C426C7A2080035B698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECD3C326C7A2080035B698 /* SceneDelegate.swift */; };
 		B5ECD3C626C7A2080035B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECD3C526C7A2080035B698 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B52E47D626C89F160019D25B /* HannariMincho-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HannariMincho-Regular.otf"; sourceTree = "<group>"; };
+		B52E47D826C8AC2C0019D25B /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		B52E47DA26C8AC640019D25B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		B5ECD3BE26C7A2080035B698 /* ojisanと話す.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ojisanと話す.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ECD3C126C7A2080035B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5ECD3C326C7A2080035B698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				B5ECD3CA26C7A2080035B698 /* Assets.xcassets */,
 				B5ECD3CC26C7A2080035B698 /* LaunchScreen.storyboard */,
 				B5ECD3CF26C7A2080035B698 /* Info.plist */,
+				B52E47D626C89F160019D25B /* HannariMincho-Regular.otf */,
+				B52E47D826C8AC2C0019D25B /* SelectViewController.swift */,
+				B52E47DA26C8AC640019D25B /* ResultViewController.swift */,
 			);
 			path = "ojisanと話す";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				B5ECD3CE26C7A2080035B698 /* LaunchScreen.storyboard in Resources */,
 				B5ECD3CB26C7A2080035B698 /* Assets.xcassets in Resources */,
+				B52E47D726C89F160019D25B /* HannariMincho-Regular.otf in Resources */,
 				B5ECD3C926C7A2080035B698 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52E47DB26C8AC640019D25B /* ResultViewController.swift in Sources */,
+				B52E47D926C8AC2C0019D25B /* SelectViewController.swift in Sources */,
 				B5ECD3C626C7A2080035B698 /* ViewController.swift in Sources */,
 				B5ECD3C226C7A2080035B698 /* AppDelegate.swift in Sources */,
 				B5ECD3C426C7A2080035B698 /* SceneDelegate.swift in Sources */,
